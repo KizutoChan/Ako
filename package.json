@@ -1,0 +1,31 @@
+{
+  "name": "KizutoRadio",
+  "version": "1.0.0",
+  "description": "Discord music bot built with discord.js",
+  "main": "shard.js",
+  "author": "Kizuto <kaguyakizuto@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": "12x"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "common-tags": "^1.8.0",
+    "dblapi.js": "^2.4.1",
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.7",
+    "lyrics-finder": "^21.3.2",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.9.29",
+    "simple-youtube-api": "^5.2.1",
+    "soundcloud-downloader": "^0.1.4",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^3.2.2",
+    "ytdl-core-discord": "^1.2.1"
+  },
+  "scripts": {
+    "start": "node shard.js"
+  }
+}
