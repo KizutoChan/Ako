@@ -1,4 +1,4 @@
-# Ako
+# **Ako**
 
 Ako is a Discord music bot built with discord.js
 
